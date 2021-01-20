@@ -1,0 +1,8 @@
+<qa:environment xmlns:qa="urn:model.commons.qatools.yandex.ru">
+    <name>FEMI AUTOMATION TEST REPORT</name>
+    <parameter>
+        <name>URL</name>
+        <key>URL</key>
+        <value>https://doctor-com</value>
+    </parameter>
+</qa:environment>

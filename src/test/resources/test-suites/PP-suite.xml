@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Patient portal test scope" parallel="false">
+    <parameter name="config" value="single.config.json"/>
+    <parameter name="environment" value="chrome"/>
+    <parameter name="browser" value="chrome"/>
+    <suite-files>
+        <suite-file path="acceptance/PP-acceptance-suite.xml"/>
+        <suite-file path="C2P/PP-video-call-suite.xml"/>
+        <suite-file path="login/PP-login-suite.xml"/>
+        <suite-file path="C2P/PP-media-suite.xml"/>
+    </suite-files>
+</suite>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TESTDATA env="dev">
+    <GENERAL>
+    <DB>
+        <DB_HOST>rds.amazonaws.com</DB_HOST>
+        <DB_PORT>5432</DB_PORT>
+        <DB_NAME>dev_micro_services_db</DB_NAME>
+        <DB_USER></DB_USER>
+        <DB_PASSWORD></DB_PASSWORD>
+    </DB>
+    <LOGIN_DATA>
+        <OTP>111111</OTP>
+    </LOGIN_DATA>
+    <ENDPOINTS>
+        <PATIENT_ENDPOINT>https://dev-api.com/patient</PATIENT_ENDPOINT>
+        <CLINICIAN_ENDPOINT>https://dev-api.com/clinician</CLINICIAN_ENDPOINT>
+        <SOAP_ENDPOINT>http://dev-com/wsdl?wsdl</SOAP_ENDPOINT>
+    </ENDPOINTS>
+        <CP_EN_URI>https://doctor-.com/en/select-organization</CP_EN_URI>
+        <CP_HE_URI>https://doctor-com/he/select-organization</CP_HE_URI>
+        <PP_EN_URI>https://web-patient-portal.com/en/organization-selection</PP_EN_URI>
+        <PP_HE_URI>https://web-patient-portal.com/he/organization-selection</PP_HE_URI>
+        <AC_EN_URI>https://web-admin-console-.com/</AC_EN_URI>
+   </GENERAL>
+    <WRONG_DATA>
+        <badFormatedEmail>.com</badFormatedEmail>
+        <incorrectEmail>@femiglobal.com</incorrectEmail>
+        <incorrectClinicianPassword></incorrectClinicianPassword>
+        <badFormatedClinicianPassword>wrongPassword</badFormatedClinicianPassword>
+        <incorrectOrganizationToken>incorrectfemiglobal</incorrectOrganizationToken>
+        <incorrectToken>SOME_TOKEN</incorrectToken>
+    </WRONG_DATA>
+    <PATIENT_LOGIN>
+        <policyID></policyID>
+        <phoneNumber>+</phoneNumber>
+        <email>.@gmail.com</email>
+        <existingPatientOrganizationName>Test Appointment</existingPatientOrganizationName>
+        <existingPatientDepartmentName>Pediatrics - General</existingPatientDepartmentName>
+        <existingPatientOrgId>106</existingPatientOrgId>
+        <existingPatientDepartmentId>108</existingPatientDepartmentId>
+        <organizationToken>appointment</organizationToken>
+        <invalidOrganizationToken>incorrectfemiglobal</invalidOrganizationToken>
+        <isIdEligible>true</isIdEligible>
+        <token>SOME_TOKEN</token>
+        <otpMethod>INTERNAL_OTP</otpMethod>
+        <isVerified>true</isVerified>
+        <firstName>John</firstName>
+        <lastName></lastName>
+        <organizationIdentityName>Femi Global - Doctor Online</organizationIdentityName>
+        <policyIDForBlockTest>222222222</policyIDForBlockTest>
+        <policyIDForFrozenTest>333333333</policyIDForFrozenTest>
+        <patientAdditionalInfo>This info was added by automated test. Please skip it in case if you see this message.</patientAdditionalInfo>
+    </PATIENT_LOGIN>
+    <CLINICIAN_EXISTING_USER_LOGIN>
+        <existingClinicianEmail>@gmail.com</existingClinicianEmail>
+        <existingClinicianPassword></existingClinicianPassword>
+        <existingClinicianOrganizationToken></existingClinicianOrganizationToken>
+        <existingClinicianOtpMethod>INTERNAL_OTP</existingClinicianOtpMethod>
+        <existingClinicianToken></existingClinicianToken>
+        <existingClinicianIsVerified>true</existingClinicianIsVerified>
+        <existingClinicianIsValid>true</existingClinicianIsValid>
+    </CLINICIAN_EXISTING_USER_LOGIN>
+    <CLINICIAN_PROVIDER>
+        <existingProviderEmail>@gmail.com</existingProviderEmail>
+        <existingProviderPassword></existingProviderPassword>
+        <existingProviderOrganizationName>Test Appointment</existingProviderOrganizationName>
+        <existingProviderDepartmentName>Pediatrics - General</existingProviderDepartmentName>
+        <existingProviderOrgId>106</existingProviderOrgId>
+        <existingProviderDepartmentId>108</existingProviderDepartmentId>
+        <existingProviderC2PDepartmentId>108</existingProviderC2PDepartmentId>
+        <existingProviderId></existingProviderId>
+        <existingProviderLicenseId></existingProviderLicenseId>
+        <existingProviderFirstName>QA</existingProviderFirstName>
+        <existingProviderLastName>Auto-provider</existingProviderLastName>
+        <existingProviderOrganizationToken>106</existingProviderOrganizationToken>
+        <existingProviderOtpMethod>INTERNAL_OTP</existingProviderOtpMethod>
+        <existingProviderToken></existingProviderToken>
+    </CLINICIAN_PROVIDER>
+
+    </EMAILS>
+</TESTDATA>

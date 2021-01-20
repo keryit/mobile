@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cre="createAppointment">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cre:cancelC2CAppointmentParams>
+            <cre:params>
+                <orgId>${customerOrgId}</orgId>
+                <cre:referenceId>${referenceId}</cre:referenceId>
+            </cre:params>
+        </cre:cancelC2CAppointmentParams>
+    </soapenv:Body>
+</soapenv:Envelope>

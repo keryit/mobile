@@ -1,0 +1,1 @@
+mvn clean test -DsuiteXmlFile=src\test\resources\test-suites\CP-suite.xml -P qa,local,CP_HE,enable_TestRail_Reporting site -e
